@@ -1,0 +1,10 @@
+{
+  "lead_id": "google-lead-8821",
+  "user_column_data": [
+    { "column_id": "EMAIL", "string_value": "priyashah@gmail.com" },
+    { "column_id": "FULL_NAME", "string_value": "Priya Shah" },
+    { "column_id": "PHONE_NUMBER", "string_value": "+91 98765 43210" }
+  ],
+  "campaign_id": "21400000000",
+  "gcl_id": "CjwKCAjwTestGclid"
+}
