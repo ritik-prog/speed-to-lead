@@ -8,8 +8,8 @@ const {
 } = require('../src/lib/stl');
 
 test('gmail aliases collapse to one identity', () => {
-  assert.equal(canonicalizeEmail('Ritik.Makhija+meta@Gmail.com'), 'ritikmakhija@gmail.com');
-  assert.equal(canonicalizeEmail('ritikmakhija@googlemail.com'), 'ritikmakhija@gmail.com');
+  assert.equal(canonicalizeEmail('Priya.Shah+meta@Gmail.com'), 'priyashah@gmail.com');
+  assert.equal(canonicalizeEmail('priyashah@googlemail.com'), 'priyashah@gmail.com');
   assert.equal(canonicalizeEmail('not.gmail@agency.com'), 'not.gmail@agency.com');
 });
 

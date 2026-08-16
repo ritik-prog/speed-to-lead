@@ -539,7 +539,7 @@ function buildOutput({
     ok: decision !== 'quarantine',
     decision,
     reason,
-    product: 'emareach-speed-to-lead',
+    product: 'speed-to-lead',
     received_at: nowIso(now),
     identity,
     person,

@@ -1,6 +1,6 @@
 # Agency delivery (1-day install)
 
-This is the ritiktechs / EmaReach add-on install path. Do not skip the Gmail canonicalization check — that is the demo that closes.
+This is the install path for a client n8n. Do not skip the Gmail canonicalization check — that is the demo that closes.
 
 ## Day-of
 
@@ -9,7 +9,7 @@ This is the ritiktechs / EmaReach add-on install path. Do not skip the Gmail can
 3. Point Meta Lead Ads (or a Zap/Make middle hop) at `POST /webhook/stl/meta`.
 4. Point Google Lead Form webhook at `POST /webhook/stl/google`.
 5. Point the website form at `POST /webhook/stl/website`.
-6. Paste Slack incoming webhook + HubSpot token into `CONFIG` in **Normalize & dedup**.
+6. Paste Slack incoming webhook + HubSpot token into `CONFIG` in **Identity**.
 7. Send one real test lead from each channel using the **same Gmail address** with a `+tag` on Meta.
 
 Expected: one CRM contact, `first_source=meta`, `all_sources=meta;google;website` (if all three fired), Slack only for the first and for each *new channel*, not for the hot-window repeats.

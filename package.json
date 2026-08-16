@@ -1,7 +1,7 @@
 {
   "name": "speed-to-lead",
-  "private": true,
-  "description": "EmaReach / ritiktechs n8n add-on: speed-to-lead with source tagging and email dedup.",
+  "private": false,
+  "description": "n8n speed-to-lead workflow: source tagging and email dedup.",
   "scripts": {
     "test": "node --test test/*.test.js",
     "build": "node scripts/build-workflow.js",
