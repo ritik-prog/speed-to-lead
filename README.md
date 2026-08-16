@@ -1,7 +1,5 @@
 # Speed-to-lead with source tagging + email dedup
 
-EmaReach / ritiktechs n8n add-on for agencies that buy traffic on **Meta**, **Google**, and a **website form**, then dump every submit into the CRM as a new contact.
-
 **You do not click Execute for live leads.** If **Speed-to-lead** is **Published** (green), that single workflow is already listening 24/7. Meta, Google, Website, and Ops are four doors into the **same** pipeline — only the door that received the POST runs. The orange Execute button is an editor test shot, not how production works.
 
 Leads are processed **one at a time**. If Meta and Google fire together, the second waits so the email ledger cannot collide.
